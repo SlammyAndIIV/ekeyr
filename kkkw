@@ -25,7 +25,7 @@ end
 
 local URI_Data = game:HttpGet(URI..'?key='..getgenv().key)
 if URI_Data and URI_Data == 'Invalid Key' then
- print("invalid key idiot negro")
+ print("ass key nigga")
    return end
 
 local data = string.split(URI_Data, '.')[2]
@@ -52,7 +52,7 @@ spawn(function()
 end)
 
 if data ~= encData then
---script here
+print("key worsk!11!")
 end
 repeat wait() until expected == DURI and encDataType >= dataType and DURIType >= dataType do end
 
